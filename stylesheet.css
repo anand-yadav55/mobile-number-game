@@ -1,3 +1,4 @@
+/*for mobile display*/
 @media screen and (max-width: 480px){
 	body{
 		background-image: url("backgroundImage.jpg");
@@ -140,9 +141,6 @@
 		background-color: #65e478;
 		color:lavender;
 		width: 100%;	
-		position: sticky;
-		bottom:0px;
-
 	}
 	.credit>p{
 		display:inline;
