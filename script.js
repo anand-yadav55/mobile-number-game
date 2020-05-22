@@ -55,7 +55,7 @@ function result(){
 		console.log("your answer: "+input.value);
 		input_record_function(input.value);
 		count++;
-
+		input.value=null;
 	}
 	if(count>10){
 		output.innerText="you are out of move. click reset for a new round";
