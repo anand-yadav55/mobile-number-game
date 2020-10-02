@@ -1,4 +1,4 @@
-let number=Math.floor(Math.random()*10)+1;
+let number=Math.floor(Math.random()*100)+1;
 console.log("answer: "+number);
 let btn=document.querySelector("input[type='submit']");
 let input=document.getElementById("input");	
@@ -16,7 +16,7 @@ function hint() {
 }
 
 function reset(){
-	number=Math.floor(Math.random()*10)+1;
+	number=Math.floor(Math.random()*100)+1;
 	console.log("answer: "+number);
 	btn.value="SUBMIT";
 	input_record.innerText="";
